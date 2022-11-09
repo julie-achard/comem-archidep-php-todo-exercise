@@ -4,12 +4,8 @@
 // accessing the application at
 // "http://localhost:8888/comem-archidep-php-todo-exercise/", then BASE_URL
 // should be "/comem-archidep-php-todo-exercise/". If you are accessing the
-// application at "http://localhost:8888", then BASE_URL should be "/".
-<<<<<<< HEAD
-define('BASE_URL', '/');
-=======
+// application at "http://localhost:8888", then BASE_URL should be "/".ß
 define('BASE_URL', getenv('TODOLIST_BASE_URL') ?: '/');
->>>>>>> 39f1265 (Changement Base URL et DB Pass)
 
 // Database connection parameters.
 define('DB_USER', 'todolist');
